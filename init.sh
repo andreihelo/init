@@ -84,7 +84,7 @@ hr() {
 }
 
 if command -v omz >/dev/null 2>&1 || command -v brew >/dev/null 2>&1; then
-  info "Running: omz update; brewupdate; brewoutdated; brewupgrade; brew cleanup\n"
+  info "Running: omz update; brew update; brew outdated; brew upgrade; brew cleanup\n"
   (
     set +e
     command -v omz >/dev/null 2>&1 && omz update
