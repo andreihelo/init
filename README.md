@@ -1,4 +1,4 @@
-# init
+# initdev
 Bash script to run right after startup.
 
 ## Overview
